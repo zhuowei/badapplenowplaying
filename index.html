@@ -6,6 +6,16 @@
 <body>
 <video src="badapple.mp4" id="video" controls playsinline loop></video>
 <br>
+<p>Plays a video and draws its frames as album art using the Media Session API.</p>
+<p>This is used to play Bad Apple on the Dynamic Island on an iPhone 14 Pro... at 2fps.</p>
+<p>(iOS 16.1 will introduce the ActivityKit Dynamic Island APIs that will enable playing full framerate video, but I don't have the beta yet)</p>
+<ul>
+<li>Play the video</li>
+<li>Put Safari into background</li>
+<li>Go to Control Center and start playing the video from Now Playing</li>
+<li>Go to the homescreen</li>
+</ul>
+<br>
 <canvas id="canvas" width="64" height="64"></canvas>
 <br>
 <script src="badapple.js"></script>
